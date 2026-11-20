@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+		body {
+			font-family: Helvetica, sans-serif;
+			font-size:18px;
+			height: 100%;
+			padding: 20px;
+			line-height: 1.3;
+		}
+		/* Sets the right margin for a <p> environment */
+		p {
+			max-width: 50%;
+		}
+		/* Sets the default size for an image */
+		img {
+			padding: 20px;
+			float: right;
+		}
+		@media screen and (max-width: 600px) {
+			.img {
+				float: none;
+			}
+			p {
+				max-width: 100%;
+			}
+		}
+	}
+
